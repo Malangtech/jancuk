@@ -43,7 +43,7 @@ include "tambahan/configsitus.php";
 include "tambahan/template.php";
 //include "includes/excelreader2.php";
 global $judul_situs,$theme;
-//cek_situs();
+cek_situs();
 $_GET['aksi'] 	= !isset($_GET['aksi']) ? null : $_GET['aksi'];
 $_GET['modul'] 	= !isset($_GET['modul']) ? null : $_GET['modul'];
 $_GET['opsi'] 	= !isset($_GET['opsi']) ? null : $_GET['opsi'];
