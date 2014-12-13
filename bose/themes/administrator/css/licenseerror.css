@@ -1,0 +1,135 @@
+/********************************************
+   TCMS HTML ELEMENTS
+********************************************/ 
+
+/* top elements */
+* { padding: 0; margin: 0; }
+
+body {
+	margin			: 0;
+	padding			: 0;
+	font			: .70em/1.5em  Verdana, Tahoma, Helvetica, sans-serif;
+	color			: #333333; 
+	background		: #EDFFED;
+}
+
+/* links */
+a { 
+	color			: #21759B;
+	background-color: transparent;
+	text-decoration	: none;
+}
+a:hover {
+	color			: #D54E21;
+	background-color: transparent;
+	text-decoration	: none;
+}
+
+#login_container {
+	background		: #ffffff;
+	width			: 300px;
+	border			: 1px solid #C4EDC4;
+	margin			: 100px auto 100px auto;
+	padding			: 10px;
+	-webkit-border-radius : 5px;
+	-moz-border-radius : 5px;
+	border-radius	: 5px;
+	
+	-webkit-box-shadow : 0px 0px 3px #ADDEAD;
+	-moz-box-shadow	: 0px 0px 3px #ADDEAD;
+	box-shadow		: 0px 0px 3px #ADDEAD;
+}
+#login_msg {
+	background		: #FFF1B7;
+	text-align		: center;
+	font-size		: 13px;
+	font-weight		: bold;
+	border			: 1px solid #FFCE81;
+	color			: #333333;
+	padding			: 10px 5px 10px 5px;
+	-webkit-border-radius : 5px;
+	-moz-border-radius : 5px;
+	border-radius	: 5px;
+}
+#login_container p {
+	padding			: 5px 0px 5px 0px;
+}
+.license {
+	color			: #FF0000;
+	font-weight		: normal;
+}
+
+ul, ol {
+	margin			: 10px 5px;
+	padding			: 0 15px;
+	color			: #333333;
+}
+ul span, ol span {
+	color			: #666666; 
+}
+
+input:hover,select:hover,textarea:hover{
+	border			:1px solid #E26421;
+	background		:#f2f2f2;
+}
+
+/* form */
+#form .textbox {
+    border		 	: 1px solid #cccccc; 
+	width			: 95%;
+    background		: #fff; 
+	padding			: 5px;
+	-webkit-border-radius : 5px;
+	-moz-border-radius : 5px;
+	border-radius	: 5px;
+} 
+#form .textbox:hover {
+    border		 	: 1px solid #47A447;  
+	width			: 95%;
+    background		: #EDFFED; 
+	padding			: 5px;
+	-webkit-border-radius : 5px;
+	-moz-border-radius : 5px;
+	border-radius	: 5px;
+}
+
+#form label {
+    float			: right;
+    padding			: 0 1em;
+    text-align		: right;
+}
+
+#form .button {
+    color 			: #fff;  
+    background		: #5CB85C;
+	padding			: 5px;
+    border 			: 1px solid #4CAE4C; 
+    cursor 			: pointer; 
+	-webkit-border-radius : 5px;
+	-moz-border-radius : 5px;
+	border-radius	: 5px;
+}
+#form .button:hover {
+    color 			: #fff;  
+    background		: #47A447;
+	padding			: 5px;
+    border 			: 1px solid #398439; 
+    cursor 			: pointer; 
+	-webkit-border-radius : 5px;
+	-moz-border-radius : 5px;
+	border-radius	: 5px;
+}
+.sukses {
+	background		: #D7FFD7;
+	color			: #2D832D;
+	width			: 300px;
+	margin			: 50px auto 0 auto;
+	padding			: 10px;
+}
+.error {
+	background		: #FFE4E4;
+	color			: #FF0000;
+	width			: 300px;
+	margin			: 50px auto 0 auto;
+	padding			: 10px;
+}

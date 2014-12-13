@@ -1,0 +1,151 @@
+/********************************************
+   TCMS HTML ELEMENTS
+********************************************/ 
+
+
+/* links */
+a { 
+	color			: #21759B;
+	background-color: transparent;
+	text-decoration	: none;
+}
+a:hover {
+	color			: #D54E21;
+	background-color: transparent;
+	text-decoration	: none;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position		: relative;
+	min-height		: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom	: 60px;
+}
+#footer {
+	position		: absolute;
+	bottom			: 0;
+	width			: 100%;
+	/* Set the fixed height of the footer here */
+	height			: 60px;
+	background-color: #21759B;
+}
+.container .text-footer {
+	margin			: 20px 0;
+	color			: #ffffff;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+	padding			: 60px 15px 0;
+}
+.container .text-muted {
+	margin			: 20px 0;
+}
+
+@media (min-width: 1200px) {
+.container {
+    width			: 970px;
+}
+}
+
+.rightbar {
+	border-left		: 1px dashed #dddddd;
+}
+
+.bg {
+	padding			: 5px 0 5px 0;
+	border-bottom	: 1px dashed #dddddd;
+}
+
+.box {
+	padding			: 0px 0 0px 0;
+	margin			: 0px 0 20px 0;
+}
+
+.box ul {
+	margin			: 0px;	
+	padding			: 0px 0px 0px 0px;
+	list-style-type	: none;
+}
+.box a {
+	color			: #21759B;
+	text-decoration	: none;
+}
+
+.box a:hover{
+	color			: #333333;
+}
+
+.box li {
+	padding			: 0px 0px 0px 0px;
+	color			: #333333;
+}
+
+.box ul {
+	margin			: 0px 0 0px 0px;
+	padding			: 0px 0px 0px 0px;
+	list-style-type	: none;
+}
+.box li a {
+	color			: #21759B;
+	border-bottom	: 1px dashed #dddddd;
+	text-decoration	: none;
+	display			: block;
+    padding			: 5px 0px 5px 0px;
+}
+.box li a:hover{
+	color			: #D54E21;
+}
+
+.submenu li {
+	padding			: 0px 0px 0px 0px;
+	color			: #333333;
+}
+.submenu li a {
+	color			: #21759B;
+	border-bottom	: 1px dashed #dddddd;
+	text-decoration	: none;
+	display			: block;
+    padding			: 5px 0px 5px 10px;
+}
+.submenu  li a:hover{
+	color			: #D54E21;
+}
+.box ul li {
+	padding			: 0px 0 0px 0;
+}
+
+.komentar_terbaru {
+	color			: #777777;
+	border-bottom	: 1px dashed #dddddd;
+	text-decoration	: none;
+	display			: block;
+    padding			: 5px 0px 5px 0px;
+}
+.komentar_terbaru a {
+	color			: #21759B;
+	text-decoration	: none;
+}
+
+.terpopuler_blok {
+	border-bottom	: 1px dashed #dddddd;
+	text-decoration	: none;
+	display			: block;
+    padding			: 5px 0px 5px 0px;
+}
+
+#footer > .container {
+	padding-right	: 15px;
+	padding-left	: 15px;
+}
+
+code {
+	font-size		: 80%;
+}
